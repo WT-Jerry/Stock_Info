@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- 強制瀏覽器不快取 HTML 本身 -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>夥計 AI 專業監控站 (行動優化版)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg-color: #0b0e11;
+            --card-bg: #1e2329;
+            --primary-blue: #00d2ff;
+            --uptrend-red: #ff3b30;
+            --downtrend-green: #34c759;
+            --text-main: #eaecef;
+            --text-secondary: #848e9c;
+            --accent-glow: rgba(0, 210, 255, 0.4);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg-color); color: var(--text-main); display: flex; height: 100vh; flex-direction: row; overflow: hidden; }
+
+        /* --- 桌面版側邊欄 --- */
+        .sidebar { width: 300px; background: var(--card-bg); border-right: 1px solid #333; display: flex; flex-direction: column; padding: 20px; flex-shrink: 0; overflow-y: auto; }
+        .sidebar h2 { color: var(--primary-blue); margin-bottom: 20px; font-size: 1.5rem; text-align: center; }
+        
+        .mgmt-box { background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; margin-bottom: 20px; border: 1px dashed #444; }
+        .mgmt-input { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #444; background: #0b0e11; color: white; margin-bottom: 10px; font-size: 0.9rem; outline: none; }
+        .mgmt-btns { display: flex; gap: 8px; }
+        .btn { flex: 1; padding: 8px; border-radius: 6px; border: none; font-weight: bold; cursor: pointer; font-size: 0.8rem; transition: 0.2s; }
+        .btn-add { background: var(--uptrend-red); color: white; }
+        .btn-del { background: #444; color: #ccc; }
+        .btn:disabled { opacity: 0.5; }
+
+        .stock-item { padding: 15px; border-radius: 12px; cursor: pointer; transition: 0.3s; margin-bottom: 12px; border: 1px solid transparent; background: #2b313955; }
+        .stock-item.active { background: #2b3139; border-color: var(--primary-blue); box-shadow: 0 0 15px var(--accent-glow); }
+        .stock-item .name { font-weight: bold; font-size: 1.1rem; display: block; margin-bottom: 4px; }
+        .stock-item .price-line { display: flex; justify-content: space-between; font-size: 0.9rem; }
+
+        /* --- 主內容區 --- */
+        .main-content { flex: 1; padding: 30px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; }
+        .header-section { display: flex; flex-wrap: wrap; align-items: baseline; gap: 15px; position: relative; }
+        .current-name { font-size: 2.2rem; font-weight: 800; }
+        .current-price { font-size: 2.2rem; font-weight: 800; }
+        .change-pill { padding: 4px 12px; border-radius: 20px; font-weight: bold; font-size: 1rem; }
+
+        .sync-btn { position: absolute; right: 0; top: 0; background: var(--primary-blue); color: var(--bg-color); border: none; padding: 10px 15px; border-radius: 8px; font-weight: bold; cursor: pointer; }
+        
+        .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 15px; }
+        .info-card { background: var(--card-bg); padding: 15px; border-radius: 16px; border: 1px solid #333; }
+        .info-card .label { color: var(--text-secondary); font-size: 0.8rem; margin-bottom: 6px; }
+        .info-card .value { font-size: 1.1rem; font-weight: bold; }
+        .info-card .highlight { color: var(--primary-blue); }
+
+        .section-title { color: var(--primary-blue); font-size: 1.2rem; margin-bottom: 12px; border-left: 4px solid var(--primary-blue); padding-left: 10px; font-weight: bold; }
+        
+        .analysis-section { background: linear-gradient(145deg, #1e2329, #0b0e11); padding: 20px; border-radius: 16px; border-left: 6px solid var(--primary-blue); }
+        .analysis-list { list-style: none; }
+        .analysis-list li { margin-bottom: 10px; font-size: 1rem; line-height: 1.5; color: #ced4da; padding-left: 20px; position: relative; }
+        .analysis-list li::before { content: "•"; color: var(--primary-blue); position: absolute; left: 0; }
+
+        .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .chart-container { background: var(--card-bg); padding: 15px; border-radius: 16px; height: 320px; border: 1px solid #333; }
+
+        .news-section, .chips-section { background: var(--card-bg); padding: 18px; border-radius: 16px; border: 1px solid #333; }
+        .news-item { margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px dashed #333; display: flex; gap: 10px; }
+        .news-tag { background: #333; color: var(--primary-blue); padding: 2px 8px; border-radius: 4px; font-size: 0.7rem; white-space: nowrap; height: fit-content; margin-top: 3px; }
+        .news-link { color: var(--text-main); text-decoration: none; font-size: 0.95rem; line-height: 1.4; }
+
+        .chips-table-wrapper { overflow-x: auto; }
+        .chips-table { width: 100%; border-collapse: collapse; text-align: center; font-size: 0.85rem; min-width: 400px; }
+        .chips-table th { color: var(--text-secondary); padding: 10px; border-bottom: 1px solid #333; }
+        .chips-table td { padding: 10px; border-bottom: 1px solid #2b3139; }
+
+        /* --- 手機版專屬排盤 (Responsive) --- */
+        @media (max-width: 768px) {
+            body { flex-direction: column; overflow-y: auto; }
+            
+            /* 側邊欄改為頂部橫向滾動清單 */
+            .sidebar { 
+                width: 100%; height: auto; border-right: none; border-bottom: 1px solid #333; 
+                padding: 10px; flex-direction: row; overflow-x: auto; white-space: nowrap; 
+                position: sticky; top: 0; z-index: 100;
+            }
+            .sidebar h2 { display: none; }
+            .mgmt-box { 
+                display: inline-block; width: 150px; margin-right: 10px; margin-bottom: 0; 
+                padding: 8px; vertical-align: top; flex-shrink: 0;
+            }
+            .mgmt-input { padding: 6px; font-size: 0.8rem; margin-bottom: 5px; }
+            .btn { padding: 4px; font-size: 0.7rem; }
+            .sidebar p { display: none; }
+
+            #sidebar-list { display: flex; gap: 10px; }
+            .stock-item { 
+                display: inline-block; width: 130px; margin-bottom: 0; padding: 10px; 
+                flex-shrink: 0; vertical-align: top;
+            }
+            .stock-item .name { font-size: 0.9rem; }
+            .stock-item .price-line { font-size: 0.8rem; }
+
+            /* 主內容區間距縮小 */
+            .main-content { padding: 15px; overflow-y: visible; }
+            .sync-btn { position: relative; width: 100%; margin-bottom: 10px; }
+            .header-section { gap: 10px; justify-content: center; text-align: center; }
+            .current-name, .current-price { font-size: 1.8rem; }
+            
+            .dashboard-grid { grid-template-columns: 1fr 1fr; }
+            .chart-grid { grid-template-columns: 1fr; }
+            .chart-container { height: 280px; }
+            
+            .news-link { font-size: 0.9rem; }
+        }
+
+        .up { color: var(--uptrend-red) !important; }
+        .down { color: var(--downtrend-green) !important; }
+        .up-bg { background: rgba(255, 59, 48, 0.15); color: var(--uptrend-red); }
+        .down-bg { background: rgba(52, 199, 89, 0.15); color: var(--downtrend-green); }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <!-- 動態管理區 -->
+        <div class="mgmt-box">
+            <input type="text" id="stock-input" class="mgmt-input" placeholder="代號(如2330)">
+            <div class="mgmt-btns">
+                <button id="add-btn" class="btn btn-add" onclick="manageStock('add')">➕ 新增</button>
+                <button id="del-btn" class="btn btn-del" onclick="manageStock('delete')">➖ 刪除</button>
+            </div>
+            <p style="font-size: 0.65rem; color: #666; margin-top: 8px; text-align: center;">*新增約需 2~3 分鐘同步</p>
+        </div>
+
+        <div id="sidebar-list"></div>
+    </div>
+
+    <div class="main-content">
+        <button id="sync-button" class="sync-btn" onclick="manageStock('refresh')">🔄 立即更新數據</button>
+        
+        <div id="dashboard-view" style="display: none; flex-direction: column; gap: 20px;">
+            <div class="header-section">
+                <div class="current-name" id="view-name">--</div>
+                <div class="current-price" id="view-price">--</div>
+                <div id="view-change-pill" class="change-pill">--</div>
+            </div>
+
+            <div class="dashboard-grid">
+                <div class="info-card"><div class="label">籌碼動向</div><div class="value highlight" id="view-chip-status">--</div></div>
+                <div class="info-card"><div class="label">買進支撐</div><div class="value highlight" id="view-entry">--</div></div>
+                <div class="info-card"><div class="label">長線目標</div><div class="value highlight" id="view-longterm">--</div></div>
+                <div class="info-card"><div class="label">更新時間</div><div class="value" id="view-time" style="font-size: 0.8rem;">--</div></div>
+            </div>
+
+            <div class="analysis-section">
+                <div class="section-title" style="border:none;">夥計智慧戰略分析</div>
+                <ul id="view-analysis-list" class="analysis-list"></ul>
+            </div>
+
+            <div class="chart-grid">
+                <div class="chart-container">
+                    <div class="section-title" style="border:none; font-size: 0.9rem; margin-bottom: 5px;">近二十日價格走勢 ($)</div>
+                    <canvas id="priceChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <div class="section-title" style="border:none; font-size: 0.9rem; margin-bottom: 5px;">前二十天成交量 (張)</div>
+                    <canvas id="volumeChart"></canvas>
+                </div>
+            </div>
+
+            <div class="news-section">
+                <div class="section-title">🗞️ 近七天精選相關新聞</div>
+                <ul id="view-news-list" class="news-list" style="list-style:none;"></ul>
+            </div>
+
+            <div class="chips-section">
+                <div class="section-title">三大法人歷史買賣超 (張)</div>
+                <div class="chips-table-wrapper">
+                    <table class="chips-table">
+                        <thead><tr><th>日期</th><th>外資</th><th>投信</th><th>自營</th><th>合計</th></tr></thead>
+                        <tbody id="chips-history-body"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="loading" style="text-align: center; margin-top: 50px;">📡 數據分析同步中...</div>
+    </div>
+
+    <script>
+        let allData = {};
+        let priceChart = null;
+        let volChart = null;
+        const GITHUB_REPO = "WT-Jerry/Stock_Info";
+        const WORKFLOW_ID = "update.yml";
+
+        async function init() {
+            try {
+                // 使用 headers 禁用 fetch 快取，並保留 cb query 雙重保險
+                const response = await fetch('stock_data.json?cb=' + new Date().getTime(), {
+                    cache: "no-store",
+                    headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' }
+                });
+                allData = await response.json();
+                const sidebarList = document.getElementById('sidebar-list');
+                sidebarList.innerHTML = '';
+                Object.keys(allData).forEach((symbol, index) => {
+                    const stock = allData[symbol];
+                    const item = document.createElement('div');
+                    item.className = 'stock-item';
+                    item.onclick = () => { 
+                        selectStock(symbol, item); 
+                        if(window.innerWidth <= 768) {
+                            window.scrollTo({ top: document.querySelector('.main-content').offsetTop - 60, behavior: 'smooth' });
+                        }
+                    };
+                    item.innerHTML = `<span class="name">${stock.name}</span><div class="price-line"><span>$${stock.price || '--'}</span><span class="${stock.change >= 0 ? 'up' : 'down'}">${stock.change >= 0 ? '+' : ''}${stock.percent || '0'}%</span></div>`;
+                    sidebarList.appendChild(item);
+                    if (index === 0) selectStock(symbol, item);
+                });
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('dashboard-view').style.display = 'flex';
+            } catch (e) { document.getElementById('loading').innerHTML = "❌ 資料載入失敗，請確認已執行第一次更新"; }
+        }
+
+        async function manageStock(action) {
+            let symbol = document.getElementById('stock-input').value.trim();
+            if (action !== 'refresh' && !symbol) { alert("請輸入台股代號"); return; }
+            if (action === 'add' && Object.keys(allData).some(s => s.startsWith(symbol + "."))) {
+                alert(`⚠️ 股票代號 ${symbol} 已在清單中。`); return;
+            }
+
+            let token = localStorage.getItem('github_token');
+            if (!token) { 
+                token = prompt("請輸入 GitHub PAT (需 workflow 權限):"); 
+                if (!token) return; localStorage.setItem('github_token', token); 
+            }
+
+            const btns = [document.getElementById('add-btn'), document.getElementById('del-btn'), document.getElementById('sync-button')];
+            btns.forEach(b => b.disabled = true);
+            if(action === 'refresh') document.getElementById('sync-button').innerText = "🚀 指令傳送中...";
+
+            try {
+                const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${WORKFLOW_ID}/dispatches`, {
+                    method: 'POST',
+                    headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' },
+                    body: JSON.stringify({ ref: 'main', inputs: { action: action, symbol: symbol } })
+                });
+
+                if (response.ok) {
+                    alert(`✅ 指令已送出！預計 2~3 分鐘完成更新，請稍後重新整理網頁。`);
+                    document.getElementById('stock-input').value = '';
+                } else {
+                    const err = await response.json();
+                    if (response.status === 401) { localStorage.removeItem('github_token'); alert("❌ Token 無效"); }
+                    else alert("❌ 失敗: " + (err.message || "錯誤"));
+                }
+            } catch (e) { alert("❌ 網路錯誤"); } 
+            finally { btns.forEach(b => b.disabled = false); document.getElementById('sync-button').innerText = "🔄 立即更新數據"; }
+        }
+
+        function formatVal(val) {
+            if (typeof val !== 'number') return val;
+            return `<span class="${val > 0 ? 'up' : (val < 0 ? 'down' : '')}">${val > 0 ? '+' : ''}${val.toLocaleString()}</span>`;
+        }
+
+        function selectStock(symbol, element) {
+            document.querySelectorAll('.stock-item').forEach(i => i.classList.remove('active'));
+            element.classList.add('active');
+            const s = allData[symbol];
+            document.getElementById('view-name').innerText = s.name + "(" + s.symbol.split('.')[0] + ")";
+            document.getElementById('view-price').innerText = "$" + (s.price || '--');
+            document.getElementById('view-price').className = "current-price " + (s.change >= 0 ? "up" : "down");
+            const pill = document.getElementById('view-change-pill');
+            pill.innerText = `${s.change >= 0 ? '▲' : '▼'} ${s.change || '0'} (${s.percent || '0'}%)`;
+            pill.className = "change-pill " + (s.change >= 0 ? "up-bg" : "down-bg");
+            document.getElementById('view-chip-status').innerText = s.chip_status || "中性";
+            document.getElementById('view-entry').innerText = "$" + (s.entry || "--");
+            document.getElementById('view-longterm').innerText = "$" + (s.long_term || "--");
+            document.getElementById('view-time').innerText = s.updated;
+            const aList = document.getElementById('view-analysis-list');
+            aList.innerHTML = '';
+            if (s.analysis_points) s.analysis_points.forEach(p => { aList.innerHTML += `<li>${p}</li>`; });
+            const nList = document.getElementById('view-news-list');
+            nList.innerHTML = '';
+            if (s.news_items && s.news_items.length > 0) {
+                s.news_items.forEach(n => { nList.innerHTML += `<li class="news-item"><span class="news-tag">${n.source}</span><a href="${n.link}" target="_blank" class="news-link">${n.title}</a></li>`; });
+            } else nList.innerHTML = '<li>目前暫無相關精選新聞。</li>';
+            const tbody = document.getElementById('chips-history-body');
+            tbody.innerHTML = '';
+            if (s.chips_history) {
+                s.chips_history.forEach(h => {
+                    tbody.innerHTML += `<tr><td>${h.date.split('/').slice(1).join('/')}</td><td>${formatVal(h.foreign)}</td><td>${formatVal(h.trust)}</td><td>${formatVal(h.dealer)}</td><td style="font-weight:bold;">${formatVal(h.total)}</td></tr>`;
+                });
+            }
+            updateCharts(s);
+        }
+
+        function updateCharts(s) {
+            const pCtx = document.getElementById('priceChart').getContext('2d');
+            if (priceChart) priceChart.destroy();
+            priceChart = new Chart(pCtx, {
+                type: 'line',
+                data: { labels: s.history_dates, datasets: [{ data: s.price_history, borderColor: '#00d2ff', backgroundColor: 'rgba(0, 210, 255, 0.1)', fill: true, tension: 0.4, borderWidth: 3, pointRadius: 2 }] },
+                options: { responsive: true, maintainAspectRatio: false, scales: { y: { grid: { color: '#333' } }, x: { grid: { display: false } } }, plugins: { legend: { display: false } } }
+            });
+            const vCtx = document.getElementById('volumeChart').getContext('2d');
+            if (volChart) volChart.destroy();
+            volChart = new Chart(vCtx, {
+                type: 'bar',
+                data: { labels: s.history_dates, datasets: [{ label: '成交量', data: s.vol_history, backgroundColor: 'rgba(0, 210, 255, 0.6)', borderRadius: 4 }] },
+                options: { responsive: true, maintainAspectRatio: false, scales: { y: { grid: { color: '#333' } }, x: { grid: { display: false } } }, plugins: { legend: { display: false } } }
+            });
+        }
+        init();
+    </script>
+</body>
+</html>

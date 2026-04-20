@@ -1,0 +1,67 @@
+name: 夥計 AI 財經自動更新
+
+on:
+  schedule:
+    - cron: '47 23 * * 0-4' # 台北 07:47
+    - cron: '47 2 * * 1-5'  # 台北 10:47
+    - cron: '47 4 * * 1-5'  # 台北 12:47
+    - cron: '47 8 * * 1-5'  # 台北 16:47
+    - cron: '47 14 * * 1-5' # 台北 22:47
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Action'
+        required: true
+        default: 'refresh'
+      symbol:
+        description: 'Symbol'
+        required: false
+        default: ''
+
+# 設定權限以允許部署到 GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install yfinance pandas requests beautifulsoup4 lxml
+
+      - name: Run Data Engine
+        run: python main.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          echo "Sync ID: $(date +'%Y%m%d%H%M%S%N')-$RANDOM" > last_sync.txt
+          git add stock_data.json stocks.json last_sync.txt
+          git commit -m "🚀 [ForceSync] 數據更新 [$(date +'%Y-%m-%d %H:%M:%S')] ID: $RANDOM" || echo "No changes"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
