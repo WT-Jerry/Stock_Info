@@ -274,7 +274,7 @@
             "05/25",
             "05/26"
         ],
-        "updated": "2026-05-26 14:33:23"
+        "updated": "2026-05-26 16:21:02"
     },
     "2402.TW": {
         "name": "毅嘉",
@@ -550,7 +550,7 @@
             "05/25",
             "05/26"
         ],
-        "updated": "2026-05-26 14:33:23"
+        "updated": "2026-05-26 16:21:02"
     },
     "3231.TW": {
         "name": "緯創",
@@ -711,6 +711,11 @@
         "news_items": [
             {
                 "source": "Yahoo新聞",
+                "title": "【公告】緯穎受邀參加Morgan Stanley舉辦之 Morgan Stanley Asia AI Summit 2026",
+                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%B7%AF%E7%A9%8E%E5%8F%97%E9%82%80%E5%8F%83%E5%8A%A0morgan-stanley%E8%88%89%E8%BE%A6%E4%B9%8B-morgan-stanley-063710056.html"
+            },
+            {
+                "source": "Yahoo新聞",
                 "title": "緯穎COMPUTEX秀AI新架構，聚焦HVDC與光互連",
                 "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E7%A9%8Ecomputex%E7%A7%80ai%E6%96%B0%E6%9E%B6%E6%A7%8B-%E8%81%9A%E7%84%A6hvdc%E8%88%87%E5%85%89%E4%BA%92%E9%80%A3-012400180.html"
             },
@@ -753,11 +758,6 @@
                 "source": "Yahoo新聞",
                 "title": "緯創 本公司受邀參加匯豐證券舉辦之法人說明會",
                 "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5-%E6%9C%AC%E5%85%AC%E5%8F%B8%E5%8F%97%E9%82%80%E5%8F%83%E5%8A%A0%E5%8C%AF%E8%B1%90%E8%AD%89%E5%88%B8%E8%88%89%E8%BE%A6%E4%B9%8B%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83-090300561.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "緯創 本公司受邀參加美商高盛亞洲證券舉辦之法人說明會",
-                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5-%E6%9C%AC%E5%85%AC%E5%8F%B8%E5%8F%97%E9%82%80%E5%8F%83%E5%8A%A0%E7%BE%8E%E5%95%86%E9%AB%98%E7%9B%9B%E4%BA%9E%E6%B4%B2%E8%AD%89%E5%88%B8%E8%88%89%E8%BE%A6%E4%B9%8B%E6%B3%95%E4%BA%BA%E8%AA%AA%E6%98%8E%E6%9C%83-090300319.html"
             }
         ],
         "vol_history": [
@@ -826,7 +826,7 @@
             "05/25",
             "05/26"
         ],
-        "updated": "2026-05-26 14:33:23"
+        "updated": "2026-05-26 16:21:02"
     },
     "3305.TW": {
         "name": "昇貿",
@@ -1102,16 +1102,16 @@
             "05/25",
             "05/26"
         ],
-        "updated": "2026-05-26 14:33:23"
+        "updated": "2026-05-26 16:21:02"
     },
     "3585.TWO": {
         "name": "聯致",
         "symbol": "3585.TWO",
-        "price": 85.2,
-        "change": -2.19,
-        "percent": -2.51,
-        "entry": 81.79,
-        "long_term": 127.8,
+        "price": 84.6,
+        "change": -2.79,
+        "percent": -3.19,
+        "entry": 81.22,
+        "long_term": 126.9,
         "chip_status": "無籌碼數據",
         "chips_history": [],
         "analysis_points": [
@@ -1140,7 +1140,7 @@
             1624.9,
             3282.9,
             2291.1,
-            2223.5
+            2464.8
         ],
         "price_history": [
             88.8,
@@ -1162,7 +1162,7 @@
             90.9,
             85.1,
             88.0,
-            85.8
+            84.6
         ],
         "history_dates": [
             "04/28",
@@ -1186,7 +1186,7 @@
             "05/25",
             "05/26"
         ],
-        "updated": "2026-05-26 14:33:23"
+        "updated": "2026-05-26 16:21:02"
     },
     "3701.TW": {
         "name": "大眾控",
@@ -1462,7 +1462,7 @@
             "05/25",
             "05/26"
         ],
-        "updated": "2026-05-26 14:33:23"
+        "updated": "2026-05-26 16:21:02"
     },
     "4569.TW": {
         "name": "六方科-KY",
@@ -1737,21 +1737,21 @@
             "05/25",
             "05/26"
         ],
-        "updated": "2026-05-26 14:33:23"
+        "updated": "2026-05-26 16:21:02"
     },
     "6407.TWO": {
         "name": "相互",
         "symbol": "6407.TWO",
-        "price": 38.4,
-        "change": 2.41,
-        "percent": 6.7,
-        "entry": 36.86,
-        "long_term": 57.6,
+        "price": 38.3,
+        "change": 2.31,
+        "percent": 6.42,
+        "entry": 36.77,
+        "long_term": 57.4,
         "chip_status": "無籌碼數據",
         "chips_history": [],
         "analysis_points": [
             "目前暫無法人籌碼數據可供分析。",
-            "🚀 技術面：當前股價 $38.4 位處月線之上，趨勢偏多。",
+            "🚀 技術面：當前股價 $38.3 位處月線之上，趨勢偏多。",
             "💡 策略建議：**盤勢不明，建議分批減碼或保守觀望**。"
         ],
         "news_items": [],
@@ -1775,7 +1775,7 @@
             871.9,
             1251.5,
             3477.0,
-            2886.5
+            3010.5
         ],
         "price_history": [
             41.5,
@@ -1797,7 +1797,7 @@
             31.3,
             32.5,
             39.0,
-            38.75
+            38.3
         ],
         "history_dates": [
             "04/28",
@@ -1821,7 +1821,7 @@
             "05/25",
             "05/26"
         ],
-        "updated": "2026-05-26 14:33:23"
+        "updated": "2026-05-26 16:21:02"
     },
     "6761.TWO": {
         "name": "穩得",
@@ -1833,6 +1833,13 @@
         "long_term": 345.0,
         "chip_status": "外資拉抬",
         "chips_history": [
+            {
+                "date": "2026/05/26",
+                "foreign": 764,
+                "trust": 0,
+                "dealer": 35,
+                "total": 799
+            },
             {
                 "date": "2026/05/25",
                 "foreign": 432,
@@ -1965,21 +1972,19 @@
                 "trust": 0,
                 "dealer": -3,
                 "total": -136
-            },
-            {
-                "date": "2026/04/27",
-                "foreign": -7,
-                "trust": 0,
-                "dealer": -16,
-                "total": -23
             }
         ],
         "analysis_points": [
-            "💰 外資為主導買盤，近5日回補 548 張。",
+            "💰 外資為主導買盤，近5日回補 1,318 張。",
             "🚀 技術面：當前股價 $230.0 位處月線之上，趨勢偏多。",
             "💡 策略建議：**多頭趨勢確立，回測支撐可分批佈局**。"
         ],
         "news_items": [
+            {
+                "source": "Yahoo新聞",
+                "title": "【公告】穩得115年股東常會重要決議事項",
+                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%A9%A9%E5%BE%97115%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E9%87%8D%E8%A6%81%E6%B1%BA%E8%AD%B0%E4%BA%8B%E9%A0%85-075409875.html"
+            },
             {
                 "source": "Yahoo新聞",
                 "title": "【公告】穩得 2026年4月合併營收1.77億元 年增-0.37%",
@@ -2024,11 +2029,6 @@
                 "source": "Yahoo新聞",
                 "title": "【公告】穩得 2026年2月合併營收1.15億元 年增-34.77%",
                 "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%A9%A9%E5%BE%97-2026%E5%B9%B42%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B61-15%E5%84%84%E5%85%83-%E5%B9%B4%E5%A2%9E-060415225.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "【公告】穩得董事會決議114年度董事酬勞及員工酬勞分配案",
-                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%A9%A9%E5%BE%97%E8%91%A3%E4%BA%8B%E6%9C%83%E6%B1%BA%E8%AD%B0114%E5%B9%B4%E5%BA%A6%E8%91%A3%E4%BA%8B%E9%85%AC%E5%8B%9E%E5%8F%8A%E5%93%A1%E5%B7%A5%E9%85%AC%E5%8B%9E%E5%88%86%E9%85%8D%E6%A1%88-091633105.html"
             }
         ],
         "vol_history": [
@@ -2097,6 +2097,6 @@
             "05/25",
             "05/26"
         ],
-        "updated": "2026-05-26 14:33:23"
+        "updated": "2026-05-26 16:21:02"
     }
 }
