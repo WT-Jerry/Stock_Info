@@ -274,7 +274,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 16:57:29"
+        "updated": "2026-06-02 20:29:10"
     },
     "2402.TW": {
         "name": "毅嘉",
@@ -550,7 +550,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 16:57:29"
+        "updated": "2026-06-02 20:29:10"
     },
     "3231.TW": {
         "name": "緯創",
@@ -712,6 +712,26 @@
         "news_items": [
             {
                 "source": "Yahoo新聞",
+                "title": "外資買超102億元 追買黃仁勳背板股緯創、鴻海 反手大砍群創20萬張",
+                "link": "https://tw.stock.yahoo.com/news/%E5%A4%96%E8%B3%87%E8%B2%B7%E8%B6%85102%E5%84%84%E5%85%83-%E8%BF%BD%E8%B2%B7%E9%BB%83%E4%BB%81%E5%8B%B3%E8%83%8C%E6%9D%BF%E8%82%A1%E7%B7%AF%E5%89%B5-%E9%B4%BB%E6%B5%B7-%E5%8F%8D%E6%89%8B%E5%A4%A7%E7%A0%8D%E7%BE%A4%E5%89%B520%E8%90%AC%E5%BC%B5-112948314.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "外資連3買加碼緯創與聯電　賣超群創逾20萬張",
+                "link": "https://tw.stock.yahoo.com/news/%E5%A4%96%E8%B3%87%E9%80%A33%E8%B2%B7%E5%8A%A0%E7%A2%BC%E7%B7%AF%E5%89%B5%E8%88%87%E8%81%AF%E9%9B%BB-%E8%B3%A3%E8%B6%85%E7%BE%A4%E5%89%B5%E9%80%BE20%E8%90%AC%E5%BC%B5-102944021.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "【公告】緯軟名稱由「緯創軟體股份有限公司」更名為「緯致科技股份有限公司」，公告期間：115年6月2日至115年9月1日。",
+                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%B7%AF%E8%BB%9F%E5%90%8D%E7%A8%B1%E7%94%B1-%E7%B7%AF%E5%89%B5%E8%BB%9F%E9%AB%94%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E6%9B%B4%E5%90%8D%E7%82%BA-%E7%B7%AF%E8%87%B4%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-094609084.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "〈COMPUTEX〉童子賢：AI產業仍處於大西部開拓時代 和碩千人團隊往上衝刺",
+                "link": "https://tw.stock.yahoo.com/news/computex-%E7%AB%A5%E5%AD%90%E8%B3%A2-ai%E7%94%A2%E6%A5%AD%E4%BB%8D%E8%99%95%E6%96%BC%E5%A4%A7%E8%A5%BF%E9%83%A8%E9%96%8B%E6%8B%93%E6%99%82%E4%BB%A3-%E5%92%8C%E7%A2%A9%E5%8D%83%E4%BA%BA%E5%9C%98%E9%9A%8A%E5%BE%80%E4%B8%8A%E8%A1%9D%E5%88%BA-090920086.html"
+            },
+            {
+                "source": "Yahoo新聞",
                 "title": "【Follow法人】外資爆砍20萬張群創...反手掃貨9萬張緯創 聯電宏碁也被敲進",
                 "link": "https://tw.stock.yahoo.com/news/%E3%80%90follow%E6%B3%95%E4%BA%BA%E3%80%91%E5%A4%96%E8%B3%87%E7%88%86%E7%A0%8D20%E8%90%AC%E5%BC%B5%E7%BE%A4%E5%89%B5%E5%8F%8D%E6%89%8B%E6%8E%83%E8%B2%A89%E8%90%AC%E5%BC%B5%E7%B7%AF%E5%89%B5-%E8%81%AF%E9%9B%BB%E5%AE%8F%E7%A2%81%E4%B9%9F%E8%A2%AB%E6%95%B2%E9%80%B2-072545945.html"
             },
@@ -739,26 +759,6 @@
                 "source": "Yahoo新聞",
                 "title": "黃仁勳喊買越多賺越多！ 背板明牌大贏家  「這檔ETF」包辦近5成",
                 "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%96%8A%E8%B2%B7%E8%B6%8A%E5%A4%9A%E8%B3%BA%E8%B6%8A%E5%A4%9A-%E8%83%8C%E6%9D%BF%E6%98%8E%E7%89%8C%E5%A4%A7%E8%B4%8F%E5%AE%B6-%E9%80%99%E6%AA%94etf-%E5%8C%85%E8%BE%A6%E8%BF%915%E6%88%90-054700653.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "台股又爆千點恐怖震盪！台積電收漲25元穩盤 老AI飆漲停",
-                "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%8F%88%E7%88%86%E5%8D%83%E9%BB%9E%E6%81%90%E6%80%96%E9%9C%87%E7%9B%AA-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%B6%E6%BC%B225%E5%85%83%E7%A9%A9%E7%9B%A4-%E8%80%81ai%E9%A3%86%E6%BC%B2%E5%81%9C-054229700.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "啟碁迎AI基礎建設成長浪潮，美系外資喊買，目標價364元",
-                "link": "https://tw.stock.yahoo.com/news/%E5%95%9F%E7%A2%81%E8%BF%8Eai%E5%9F%BA%E7%A4%8E%E5%BB%BA%E8%A8%AD%E6%88%90%E9%95%B7%E6%B5%AA%E6%BD%AE-%E7%BE%8E%E7%B3%BB%E5%A4%96%E8%B3%87%E5%96%8A%E8%B2%B7-%E7%9B%AE%E6%A8%99%E5%83%B9364%E5%85%83-034013708.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "黃仁勳再喊「台灣是AI革命核心」 曝輝達未來在台「2大布局」",
-                "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%86%8D%E5%96%8A%E3%80%8C%E5%8F%B0%E7%81%A3%E6%98%AFai%E9%9D%A9%E5%91%BD%E6%A0%B8%E5%BF%83%E3%80%8D-%E6%9B%9D%E8%BC%9D%E9%81%94%E6%9C%AA%E4%BE%86%E5%9C%A8%E5%8F%B0%E3%80%8C2%E5%A4%A7%E5%B8%83%E5%B1%80%E3%80%8D-030421025.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "想搭上AI列車？黃仁勳五層蛋糕最夯職務曝光",
-                "link": "https://tw.stock.yahoo.com/news/%E6%83%B3%E6%90%AD%E4%B8%8Aai%E5%88%97%E8%BB%8A%EF%BC%9F%E9%BB%83%E4%BB%81%E5%8B%B3%E4%BA%94%E5%B1%A4%E8%9B%8B%E7%B3%95%E6%9C%80%E5%A4%AF%E8%81%B7%E5%8B%99%E6%9B%9D%E5%85%89-025854179.html"
             }
         ],
         "vol_history": [
@@ -827,7 +827,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 16:57:29"
+        "updated": "2026-06-02 20:29:10"
     },
     "3305.TW": {
         "name": "昇貿",
@@ -1103,7 +1103,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 16:57:29"
+        "updated": "2026-06-02 20:29:10"
     },
     "3585.TWO": {
         "name": "聯致",
@@ -1187,7 +1187,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 16:57:29"
+        "updated": "2026-06-02 20:29:10"
     },
     "3701.TW": {
         "name": "大眾控",
@@ -1462,7 +1462,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 16:57:29"
+        "updated": "2026-06-02 20:29:10"
     },
     "4569.TW": {
         "name": "六方科-KY",
@@ -1737,7 +1737,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 16:57:29"
+        "updated": "2026-06-02 20:29:10"
     },
     "6407.TWO": {
         "name": "相互",
@@ -1821,7 +1821,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 16:57:29"
+        "updated": "2026-06-02 20:29:10"
     },
     "6761.TWO": {
         "name": "穩得",
@@ -2097,6 +2097,6 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 16:57:29"
+        "updated": "2026-06-02 20:29:10"
     }
 }
