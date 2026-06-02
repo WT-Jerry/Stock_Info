@@ -228,7 +228,7 @@
             21027.6,
             12705.2,
             9946.0,
-            1509.2
+            4354.0
         ],
         "price_history": [
             90.6,
@@ -250,7 +250,7 @@
             113.5,
             119.5,
             114.0,
-            112.5
+            112.0
         ],
         "history_dates": [
             "05/06",
@@ -274,7 +274,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 10:05:09"
+        "updated": "2026-06-02 15:11:10"
     },
     "2402.TW": {
         "name": "毅嘉",
@@ -504,7 +504,7 @@
             8295.2,
             12317.3,
             10786.5,
-            2186.3
+            6666.0
         ],
         "price_history": [
             70.8,
@@ -526,7 +526,7 @@
             66.1,
             69.4,
             69.9,
-            69.0
+            68.7
         ],
         "history_dates": [
             "05/06",
@@ -550,16 +550,16 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 10:05:09"
+        "updated": "2026-06-02 15:11:10"
     },
     "3231.TW": {
         "name": "緯創",
         "symbol": "3231.TW",
-        "price": 189.0,
-        "change": 15.0,
-        "percent": 8.62,
-        "entry": 181.44,
-        "long_term": 283.5,
+        "price": 191.0,
+        "change": 17.0,
+        "percent": 9.77,
+        "entry": 183.36,
+        "long_term": 286.5,
         "chip_status": "強勢買超",
         "chips_history": [
             {
@@ -706,59 +706,59 @@
         "analysis_points": [
             "🔥 近5日外資與投信同步加碼，合計買超 52,470 張。",
             "💎 20日大趨勢：投信波段持續護盤，累計買超達 5,301 張。",
-            "🚀 技術面：當前股價 $189.0 位處月線之上，趨勢偏多。",
+            "🚀 技術面：當前股價 $191.0 位處月線之上，趨勢偏多。",
             "💡 策略建議：**多頭趨勢確立，回測支撐可分批佈局**。"
         ],
         "news_items": [
             {
                 "source": "Yahoo新聞",
+                "title": "和碩電腦展秀升級版機器狗！童子賢看AI「正值大西部開拓年代」",
+                "link": "https://tw.stock.yahoo.com/news/%E5%92%8C%E7%A2%A9%E9%9B%BB%E8%85%A6%E5%B1%95%E7%A7%80%E5%8D%87%E7%B4%9A%E7%89%88%E6%A9%9F%E5%99%A8%E7%8B%97%EF%BC%81%E7%AB%A5%E5%AD%90%E8%B3%A2%E7%9C%8Bai%E3%80%8C%E6%AD%A3%E5%80%BC%E5%A4%A7%E8%A5%BF%E9%83%A8%E9%96%8B%E6%8B%93%E5%B9%B4%E4%BB%A3%E3%80%8D-064808526.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "台股千點大震盪！收漲219點 黃仁勳背板股一票攻漲停",
+                "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%8D%83%E9%BB%9E%E5%A4%A7%E9%9C%87%E7%9B%AA-%E6%94%B6%E6%BC%B2219%E9%BB%9E-%E9%BB%83%E4%BB%81%E5%8B%B3%E8%83%8C%E6%9D%BF%E8%82%A1-%E7%A5%A8%E6%94%BB%E6%BC%B2%E5%81%9C-061700092.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "黃仁勳喊買越多賺越多！ 背板明牌大贏家  「這檔ETF」包辦近5成",
+                "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%96%8A%E8%B2%B7%E8%B6%8A%E5%A4%9A%E8%B3%BA%E8%B6%8A%E5%A4%9A-%E8%83%8C%E6%9D%BF%E6%98%8E%E7%89%8C%E5%A4%A7%E8%B4%8F%E5%AE%B6-%E9%80%99%E6%AA%94etf-%E5%8C%85%E8%BE%A6%E8%BF%915%E6%88%90-054700653.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "台股又爆千點恐怖震盪！台積電收漲25元穩盤 老AI飆漲停",
+                "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E5%8F%88%E7%88%86%E5%8D%83%E9%BB%9E%E6%81%90%E6%80%96%E9%9C%87%E7%9B%AA-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%B6%E6%BC%B225%E5%85%83%E7%A9%A9%E7%9B%A4-%E8%80%81ai%E9%A3%86%E6%BC%B2%E5%81%9C-054229700.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "啟碁迎AI基礎建設成長浪潮，美系外資喊買，目標價364元",
+                "link": "https://tw.stock.yahoo.com/news/%E5%95%9F%E7%A2%81%E8%BF%8Eai%E5%9F%BA%E7%A4%8E%E5%BB%BA%E8%A8%AD%E6%88%90%E9%95%B7%E6%B5%AA%E6%BD%AE-%E7%BE%8E%E7%B3%BB%E5%A4%96%E8%B3%87%E5%96%8A%E8%B2%B7-%E7%9B%AE%E6%A8%99%E5%83%B9364%E5%85%83-034013708.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "黃仁勳再喊「台灣是AI革命核心」 曝輝達未來在台「2大布局」",
+                "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%86%8D%E5%96%8A%E3%80%8C%E5%8F%B0%E7%81%A3%E6%98%AFai%E9%9D%A9%E5%91%BD%E6%A0%B8%E5%BF%83%E3%80%8D-%E6%9B%9D%E8%BC%9D%E9%81%94%E6%9C%AA%E4%BE%86%E5%9C%A8%E5%8F%B0%E3%80%8C2%E5%A4%A7%E5%B8%83%E5%B1%80%E3%80%8D-030421025.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "想搭上AI列車？黃仁勳五層蛋糕最夯職務曝光",
+                "link": "https://tw.stock.yahoo.com/news/%E6%83%B3%E6%90%AD%E4%B8%8Aai%E5%88%97%E8%BB%8A%EF%BC%9F%E9%BB%83%E4%BB%81%E5%8B%B3%E4%BA%94%E5%B1%A4%E8%9B%8B%E7%B3%95%E6%9C%80%E5%A4%AF%E8%81%B7%E5%8B%99%E6%9B%9D%E5%85%89-025854179.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "〈COMPUTEX〉104「AI五層蛋糕」職缺一表看 緯創廣達招募硬體設計",
+                "link": "https://tw.stock.yahoo.com/news/computex-104-ai%E4%BA%94%E5%B1%A4%E8%9B%8B%E7%B3%95-%E8%81%B7%E7%BC%BA-%E8%A1%A8%E7%9C%8B-023756176.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "台股焦點：緯創(3231.TW)",
+                "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%84%A6%E9%BB%9E-%E7%B7%AF%E5%89%B5-3231-tw-012500444.html"
+            },
+            {
+                "source": "Yahoo新聞",
                 "title": "台股漲436點 台積電漲40元 記憶體「2檔」噴7%",
                 "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%BC%B2436%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%B240%E5%85%83-%E8%A8%98%E6%86%B6%E9%AB%94-2%E6%AA%94-%E5%99%B47-011300554.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "46K再等等！台股早盤大漲逾500點 台積電狂飆40元",
-                "link": "https://tw.stock.yahoo.com/news/46k%E5%86%8D%E7%AD%89%E7%AD%89-%E5%8F%B0%E8%82%A1%E6%97%A9%E7%9B%A4%E5%A4%A7%E6%BC%B2%E9%80%BE500%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%8B%82%E9%A3%8640%E5%85%83-010810147.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "【台股盤後】PC族群發威　台股站上45000點續創新高",
-                "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%BE%8C-pc%E6%97%8F%E7%BE%A4%E7%99%BC%E5%A8%81-%E5%8F%B0%E8%82%A1%E7%AB%99%E4%B8%8A45000%E9%BB%9E%E7%BA%8C%E5%89%B5%E6%96%B0%E9%AB%98-064010650.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "黃仁勳GTC背板股！ 台股、台積雙創高 5家台味小吃超吸睛",
-                "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3gtc%E8%83%8C%E6%9D%BF%E8%82%A1-%E5%8F%B0%E8%82%A1-%E5%8F%B0%E7%A9%8D%E9%9B%99%E5%89%B5%E9%AB%98-5%E5%AE%B6%E5%8F%B0%E5%91%B3%E5%B0%8F%E5%90%83%E8%B6%85%E5%90%B8%E7%9D%9B-062500332.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "台積尾盤急殺一場空！台股收盤仍大漲604點創新高",
-                "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E5%B0%BE%E7%9B%A4%E6%80%A5%E6%AE%BA-%E5%A0%B4%E7%A9%BA-%E5%8F%B0%E8%82%A1%E6%94%B6%E7%9B%A4%E4%BB%8D%E5%A4%A7%E6%BC%B2604%E9%BB%9E%E5%89%B5%E6%96%B0%E9%AB%98-054313319.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "黃仁勳GTC演講激勵台股！多檔AI股漲停「緯創、廣達」齊亮燈",
-                "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3gtc%E6%BC%94%E8%AC%9B%E6%BF%80%E5%8B%B5%E5%8F%B0%E8%82%A1-%E5%A4%9A%E6%AA%94ai%E8%82%A1%E6%BC%B2%E5%81%9C-%E7%B7%AF%E5%89%B5-%E5%BB%A3%E9%81%94-%E9%BD%8A%E4%BA%AE%E7%87%88-043319876.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "緯創林憲銘：面對高複雜AI製造 人海戰術不再適用須從「DNA」轉變",
-                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E6%9E%97%E6%86%B2%E9%8A%98-%E9%9D%A2%E5%B0%8D%E9%AB%98%E8%A4%87%E9%9B%9Cai%E8%A3%BD%E9%80%A0-%E4%BA%BA%E6%B5%B7%E6%88%B0%E8%A1%93%E4%B8%8D%E5%86%8D%E9%81%A9%E7%94%A8%E9%A0%88%E5%BE%9E-dna-%E8%BD%89%E8%AE%8A-041257308.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "輝達攜手台積電聯發科重返PC戰場！「重磅武器」N1X亮相 黃仁勳：世上最驚人晶片",
-                "link": "https://tw.stock.yahoo.com/news/%E8%BC%9D%E9%81%94%E6%94%9C%E6%89%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%81%AF%E7%99%BC%E7%A7%91%E9%87%8D%E8%BF%94pc%E6%88%B0%E5%A0%B4%EF%BC%81%E3%80%8C%E9%87%8D%E7%A3%85%E6%AD%A6%E5%99%A8%E3%80%8Dn1x%E4%BA%AE%E7%9B%B8-%E9%BB%83%E4%BB%81%E5%8B%B3%EF%BC%9A%E4%B8%96%E4%B8%8A%E6%9C%80%E9%A9%9A%E4%BA%BA%E6%99%B6%E7%89%87-035129408.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "GTC會前暖場 科技大老剖析先進封裝、伺服器整機布局",
-                "link": "https://tw.stock.yahoo.com/news/gtc%E6%9C%83%E5%89%8D%E6%9A%96%E5%A0%B4-%E7%A7%91%E6%8A%80%E5%A4%A7%E8%80%81%E5%89%96%E6%9E%90%E5%85%88%E9%80%B2%E5%B0%81%E8%A3%9D-%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%95%B4%E6%A9%9F%E5%B8%83%E5%B1%80-032035954.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "【台股盤中】AI概念股勁揚　台股盤中漲近1200點",
-                "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD-ai%E6%A6%82%E5%BF%B5%E8%82%A1%E5%8B%81%E6%8F%9A-%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD%E6%BC%B2%E8%BF%911200%E9%BB%9E-031040230.html"
             }
         ],
         "vol_history": [
@@ -781,7 +781,7 @@
             41046.0,
             110656.9,
             93762.3,
-            168563.8
+            282126.5
         ],
         "price_history": [
             146.5,
@@ -803,7 +803,7 @@
             144.5,
             158.5,
             174.0,
-            190.0
+            191.0
         ],
         "history_dates": [
             "05/06",
@@ -827,16 +827,16 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 10:05:09"
+        "updated": "2026-06-02 15:11:10"
     },
     "3305.TW": {
         "name": "昇貿",
         "symbol": "3305.TW",
-        "price": 161.5,
-        "change": -6.0,
-        "percent": -3.58,
-        "entry": 155.04,
-        "long_term": 242.2,
+        "price": 157.5,
+        "change": -10.0,
+        "percent": -5.97,
+        "entry": 151.2,
+        "long_term": 236.2,
         "chip_status": "大戶調節",
         "chips_history": [
             {
@@ -982,7 +982,7 @@
         ],
         "analysis_points": [
             "❄️ 法人短線調節頻繁，近5日累計賣超 448 張。",
-            "🚀 技術面：當前股價 $161.5 位處月線之上，趨勢偏多。",
+            "🚀 技術面：當前股價 $157.5 位處月線之上，趨勢偏多。",
             "💡 策略建議：**盤勢不明，建議分批減碼或保守觀望**。"
         ],
         "news_items": [
@@ -1057,7 +1057,7 @@
             10291.6,
             9418.2,
             12485.3,
-            5433.4
+            10937.5
         ],
         "price_history": [
             116.0,
@@ -1079,7 +1079,7 @@
             158.0,
             157.5,
             167.5,
-            159.5
+            157.5
         ],
         "history_dates": [
             "05/06",
@@ -1103,16 +1103,16 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 10:05:09"
+        "updated": "2026-06-02 15:11:10"
     },
     "3585.TWO": {
         "name": "聯致",
         "symbol": "3585.TWO",
-        "price": 71.5,
-        "change": -5.65,
-        "percent": -7.32,
-        "entry": 68.64,
-        "long_term": 107.2,
+        "price": 71.4,
+        "change": -5.75,
+        "percent": -7.45,
+        "entry": 68.54,
+        "long_term": 107.1,
         "chip_status": "無籌碼數據",
         "chips_history": [],
         "analysis_points": [
@@ -1141,7 +1141,7 @@
             3783.9,
             2153.3,
             2603.3,
-            1218.8
+            2782.5
         ],
         "price_history": [
             131.0,
@@ -1163,7 +1163,7 @@
             75.1,
             79.6,
             76.2,
-            72.5
+            71.5
         ],
         "history_dates": [
             "05/06",
@@ -1187,16 +1187,16 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 10:05:09"
+        "updated": "2026-06-02 15:11:10"
     },
     "3701.TW": {
         "name": "大眾控",
         "symbol": "3701.TW",
-        "price": 55.1,
-        "change": -0.6,
-        "percent": -1.08,
-        "entry": 52.9,
-        "long_term": 82.7,
+        "price": 56.6,
+        "change": 0.9,
+        "percent": 1.62,
+        "entry": 54.34,
+        "long_term": 84.9,
         "chip_status": "盤整待變",
         "chips_history": [
             {
@@ -1416,7 +1416,7 @@
             2385.2,
             1560.7,
             1967.0,
-            492.4
+            1828.2
         ],
         "price_history": [
             64.5,
@@ -1438,7 +1438,7 @@
             52.6,
             53.8,
             55.7,
-            55.2
+            56.6
         ],
         "history_dates": [
             "05/06",
@@ -1462,16 +1462,16 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 10:05:09"
+        "updated": "2026-06-02 15:11:10"
     },
     "4569.TW": {
         "name": "六方科-KY",
         "symbol": "4569.TW",
-        "price": 165.5,
-        "change": -5.0,
-        "percent": -2.93,
-        "entry": 158.88,
-        "long_term": 248.2,
+        "price": 170.5,
+        "change": 0.0,
+        "percent": 0.0,
+        "entry": 163.68,
+        "long_term": 255.8,
         "chip_status": "盤整待變",
         "chips_history": [
             {
@@ -1691,7 +1691,7 @@
             164.0,
             50.0,
             290.0,
-            53.7
+            190.1
         ],
         "price_history": [
             173.0,
@@ -1713,7 +1713,7 @@
             179.0,
             180.5,
             170.5,
-            166.0
+            170.5
         ],
         "history_dates": [
             "05/06",
@@ -1737,7 +1737,7 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 10:05:09"
+        "updated": "2026-06-02 15:11:10"
     },
     "6407.TWO": {
         "name": "相互",
@@ -1775,7 +1775,7 @@
             1315.6,
             881.4,
             1476.8,
-            492.0
+            1401.2
         ],
         "price_history": [
             40.3,
@@ -1797,7 +1797,7 @@
             33.85,
             34.2,
             33.1,
-            32.0
+            31.7
         ],
         "history_dates": [
             "05/06",
@@ -1821,16 +1821,16 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 10:05:09"
+        "updated": "2026-06-02 15:11:10"
     },
     "6761.TWO": {
         "name": "穩得",
         "symbol": "6761.TWO",
-        "price": 204.5,
-        "change": -8.5,
-        "percent": -3.99,
-        "entry": 196.32,
-        "long_term": 306.8,
+        "price": 203.5,
+        "change": -9.5,
+        "percent": -4.46,
+        "entry": 195.36,
+        "long_term": 305.2,
         "chip_status": "外資拉抬",
         "chips_history": [
             {
@@ -1976,7 +1976,7 @@
         ],
         "analysis_points": [
             "💰 外資為主導買盤，近5日回補 859 張。",
-            "🚀 技術面：當前股價 $204.5 位處月線之上，趨勢偏多。",
+            "🚀 技術面：當前股價 $203.5 位處月線之上，趨勢偏多。",
             "💡 策略建議：**多頭趨勢確立，回測支撐可分批佈局**。"
         ],
         "news_items": [
@@ -2051,7 +2051,7 @@
             1263.1,
             1276.5,
             694.1,
-            317.4
+            750.8
         ],
         "price_history": [
             204.0,
@@ -2073,7 +2073,7 @@
             223.0,
             217.0,
             213.0,
-            205.0
+            203.5
         ],
         "history_dates": [
             "05/06",
@@ -2097,6 +2097,6 @@
             "06/01",
             "06/02"
         ],
-        "updated": "2026-06-02 10:05:09"
+        "updated": "2026-06-02 15:11:10"
     }
 }
