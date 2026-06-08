@@ -274,7 +274,7 @@
             "06/05",
             "06/08"
         ],
-        "updated": "2026-06-08 17:13:43"
+        "updated": "2026-06-08 20:49:58"
     },
     "2402.TW": {
         "name": "毅嘉",
@@ -550,7 +550,7 @@
             "06/05",
             "06/08"
         ],
-        "updated": "2026-06-08 17:13:43"
+        "updated": "2026-06-08 20:49:58"
     },
     "3231.TW": {
         "name": "緯創",
@@ -712,6 +712,41 @@
         "news_items": [
             {
                 "source": "Yahoo新聞",
+                "title": "〈電子五哥營收〉緯創5月營收創單月次高 AI伺服器業務全年向上趨勢不變",
+                "link": "https://tw.stock.yahoo.com/news/%E9%9B%BB%E5%AD%90%E4%BA%94%E5%93%A5%E7%87%9F%E6%94%B6-%E7%B7%AF%E5%89%B55%E6%9C%88%E7%87%9F%E6%94%B6%E5%89%B5%E5%96%AE%E6%9C%88%E6%AC%A1%E9%AB%98-ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%A5%AD%E5%8B%99%E5%85%A8%E5%B9%B4%E5%90%91%E4%B8%8A%E8%B6%A8%E5%8B%A2%E4%B8%8D%E8%AE%8A-115803975.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "前5月營收飆破1.4兆！這家公司營收「直接翻倍」　年增106%狂寫大驚奇",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B4%AF%E8%A8%88%E9%A3%86%E7%A0%B414%E5%84%84-%E9%80%99%E5%AE%B6%E5%85%AC%E5%8F%B8%E7%87%9F%E6%94%B6-%E7%9B%B4%E6%8E%A5%E7%BF%BB%E5%80%8D-%E5%B9%B4%E5%A2%9E106-%E7%8B%82%E5%AF%AB%E5%A4%A7%E9%A9%9A%E5%A5%87-101210392.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創5月營收創單月次高　第3季AI伺服器持續成長",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B55%E6%9C%88%E7%87%9F%E6%94%B6%E5%89%B5%E5%96%AE%E6%9C%88%E6%AC%A1%E9%AB%98-%E7%AC%AC3%E5%AD%A3ai%E4%BC%BA%E6%9C%8D%E5%99%A8%E6%8C%81%E7%BA%8C%E6%88%90%E9%95%B7-102920110.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創5月營收2901億元年增近4成 創歷史次高",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B55%E6%9C%88%E7%87%9F%E6%94%B62901%E5%84%84%E5%85%83%E5%B9%B4%E5%A2%9E%E8%BF%914%E6%88%90-%E5%89%B5%E6%AD%B7%E5%8F%B2%E6%AC%A1%E9%AB%98-101339765.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創/緯穎5月業績續強，再創同期新高，H2新品效應動能續增",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5-%E7%B7%AF%E7%A9%8E5%E6%9C%88%E6%A5%AD%E7%B8%BE%E7%BA%8C%E5%BC%B7-%E5%86%8D%E5%89%B5%E5%90%8C%E6%9C%9F%E6%96%B0%E9%AB%98-h2%E6%96%B0%E5%93%81%E6%95%88%E6%87%89%E5%8B%95%E8%83%BD%E7%BA%8C%E5%A2%9E-091303292.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "【公告】緯創 2026年5月合併營收2901.83億元 年增39.24%",
+                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%B7%AF%E5%89%B5-2026%E5%B9%B45%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B62901-83%E5%84%84%E5%85%83-%E5%B9%B4%E5%A2%9E39-090339001.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創 115年5月營收2901.83億、年增39.24%",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5-115%E5%B9%B45%E6%9C%88%E7%87%9F%E6%94%B62901-83%E5%84%84-%E5%B9%B4%E5%A2%9E39-24-085900965.html"
+            },
+            {
+                "source": "Yahoo新聞",
                 "title": "緯軟正式更名為「緯致」，聚焦AI/半導體領域",
                 "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E8%BB%9F%E6%AD%A3%E5%BC%8F%E6%9B%B4%E5%90%8D%E7%82%BA-%E7%B7%AF%E8%87%B4-%E8%81%9A%E7%84%A6ai-%E5%8D%8A%E5%B0%8E%E9%AB%94%E9%A0%98%E5%9F%9F-024200129.html"
             },
@@ -724,41 +759,6 @@
                 "source": "Yahoo新聞",
                 "title": "證交所6/5完成223檔新權證發行申請案審核",
                 "link": "https://tw.stock.yahoo.com/news/%E8%AD%89%E4%BA%A4%E6%89%806-5%E5%AE%8C%E6%88%90223%E6%AA%94%E6%96%B0%E6%AC%8A%E8%AD%89%E7%99%BC%E8%A1%8C%E7%94%B3%E8%AB%8B%E6%A1%88%E5%AF%A9%E6%A0%B8-013100211.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "【公告】為昇科 2026年5月合併營收4573.9萬元 年增3.82%",
-                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%82%BA%E6%98%87%E7%A7%91-2026%E5%B9%B45%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B64573-9%E8%90%AC%E5%85%83-%E5%B9%B4%E5%A2%9E3-115251399.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "為昇科 115年5月營收4574萬、年增3.82%",
-                "link": "https://tw.stock.yahoo.com/news/%E7%82%BA%E6%98%87%E7%A7%91-115%E5%B9%B45%E6%9C%88%E7%87%9F%E6%94%B64574%E8%90%AC-%E5%B9%B4%E5%A2%9E3-82-114300995.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "緯軟 115年5月營收11.49億、年增29.21%",
-                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E8%BB%9F-115%E5%B9%B45%E6%9C%88%E7%87%9F%E6%94%B611-49%E5%84%84-%E5%B9%B4%E5%A2%9E29-21-101100850.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "緯軟 公告本公司115年除息基準日",
-                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E8%BB%9F-%E5%85%AC%E5%91%8A%E6%9C%AC%E5%85%AC%E5%8F%B8115%E5%B9%B4%E9%99%A4%E6%81%AF%E5%9F%BA%E6%BA%96%E6%97%A5-084300904.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "緯軟 公告本公司調整現金股利配息率",
-                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E8%BB%9F-%E5%85%AC%E5%91%8A%E6%9C%AC%E5%85%AC%E5%8F%B8%E8%AA%BF%E6%95%B4%E7%8F%BE%E9%87%91%E8%82%A1%E5%88%A9%E9%85%8D%E6%81%AF%E7%8E%87-064300035.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "巨漢目前在手訂單110億元，訂單能見度長達2至3年",
-                "link": "https://tw.stock.yahoo.com/news/%E5%B7%A8%E6%BC%A2%E7%9B%AE%E5%89%8D%E5%9C%A8%E6%89%8B%E8%A8%82%E5%96%AE110%E5%84%84%E5%85%83-%E8%A8%82%E5%96%AE%E8%83%BD%E8%A6%8B%E5%BA%A6%E9%95%B7%E9%81%942%E8%87%B33%E5%B9%B4-062316290.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "2026上市潮大變天！證交所爆「超狂數據」：新上市公司竟有高達4成全是AI巨鱷",
-                "link": "https://tw.stock.yahoo.com/news/2026%E4%B8%8A%E5%B8%82%E6%BD%AE%E5%A4%A7%E8%AE%8A%E5%A4%A9-%E8%AD%89%E4%BA%A4%E6%89%80%E7%88%86-%E8%B6%85%E7%8B%82%E6%95%B8%E6%93%9A-%E6%96%B0%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%E7%AB%9F%E6%9C%89%E9%AB%98%E9%81%944%E6%88%90%E5%85%A8%E6%98%AFai%E5%B7%A8%E9%B1%B7-054405741.html"
             }
         ],
         "vol_history": [
@@ -827,7 +827,7 @@
             "06/05",
             "06/08"
         ],
-        "updated": "2026-06-08 17:13:43"
+        "updated": "2026-06-08 20:49:58"
     },
     "3305.TW": {
         "name": "昇貿",
@@ -1103,7 +1103,7 @@
             "06/05",
             "06/08"
         ],
-        "updated": "2026-06-08 17:13:43"
+        "updated": "2026-06-08 20:49:58"
     },
     "3585.TWO": {
         "name": "聯致",
@@ -1187,7 +1187,7 @@
             "06/05",
             "06/08"
         ],
-        "updated": "2026-06-08 17:13:43"
+        "updated": "2026-06-08 20:49:58"
     },
     "3701.TW": {
         "name": "大眾控",
@@ -1463,7 +1463,7 @@
             "06/05",
             "06/08"
         ],
-        "updated": "2026-06-08 17:13:43"
+        "updated": "2026-06-08 20:49:58"
     },
     "4569.TW": {
         "name": "六方科-KY",
@@ -1623,6 +1623,11 @@
         "news_items": [
             {
                 "source": "Yahoo新聞",
+                "title": "【公告】六方科-KY 2026年5月合併營收1.68億元 年增14.59%",
+                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E5%85%AD%E6%96%B9%E7%A7%91-ky-2026%E5%B9%B45%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B61-68%E5%84%84%E5%85%83-101226769.html"
+            },
+            {
+                "source": "Yahoo新聞",
                 "title": "【公告】六方科-KY民國115年第1季合併財務報告業經董事會決議通過",
                 "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E5%85%AD%E6%96%B9%E7%A7%91-ky%E6%B0%91%E5%9C%8B115%E5%B9%B4%E7%AC%AC1%E5%AD%A3%E5%90%88%E4%BD%B5%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A%E6%A5%AD%E7%B6%93%E8%91%A3%E4%BA%8B%E6%9C%83%E6%B1%BA%E8%AD%B0%E9%80%9A%E9%81%8E-072439208.html"
             },
@@ -1665,11 +1670,6 @@
                 "source": "Yahoo新聞",
                 "title": "【公告】六方科-KY 2026年2月合併營收1.43億元 年增-10.88%",
                 "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E5%85%AD%E6%96%B9%E7%A7%91-ky-2026%E5%B9%B42%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B61-43%E5%84%84%E5%85%83-065318733.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "【公告】六方科-KY114年度合併財務報告董事會召開日期",
-                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E5%85%AD%E6%96%B9%E7%A7%91-ky114%E5%B9%B4%E5%BA%A6%E5%90%88%E4%BD%B5%E8%B2%A1%E5%8B%99%E5%A0%B1%E5%91%8A%E8%91%A3%E4%BA%8B%E6%9C%83%E5%8F%AC%E9%96%8B%E6%97%A5%E6%9C%9F-101536815.html"
             }
         ],
         "vol_history": [
@@ -1738,7 +1738,7 @@
             "06/05",
             "06/08"
         ],
-        "updated": "2026-06-08 17:13:43"
+        "updated": "2026-06-08 20:49:58"
     },
     "6407.TWO": {
         "name": "相互",
@@ -1822,7 +1822,7 @@
             "06/05",
             "06/08"
         ],
-        "updated": "2026-06-08 17:13:43"
+        "updated": "2026-06-08 20:49:58"
     },
     "6761.TWO": {
         "name": "穩得",
@@ -1983,6 +1983,11 @@
         "news_items": [
             {
                 "source": "Yahoo新聞",
+                "title": "【公告】穩得 2026年5月合併營收1.74億元 年增-4.63%",
+                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%A9%A9%E5%BE%97-2026%E5%B9%B45%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B61-74%E5%84%84%E5%85%83-%E5%B9%B4%E5%A2%9E-092322173.html"
+            },
+            {
+                "source": "Yahoo新聞",
                 "title": "【公告】穩得115年股東常會重要決議事項",
                 "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%A9%A9%E5%BE%97115%E5%B9%B4%E8%82%A1%E6%9D%B1%E5%B8%B8%E6%9C%83%E9%87%8D%E8%A6%81%E6%B1%BA%E8%AD%B0%E4%BA%8B%E9%A0%85-075409875.html"
             },
@@ -2025,11 +2030,6 @@
                 "source": "Yahoo新聞",
                 "title": "【公告】穩得除息基準日相關事宜",
                 "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%A9%A9%E5%BE%97%E9%99%A4%E6%81%AF%E5%9F%BA%E6%BA%96%E6%97%A5%E7%9B%B8%E9%97%9C%E4%BA%8B%E5%AE%9C-071455512.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "【公告】穩得 2026年2月合併營收1.15億元 年增-34.77%",
-                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%A9%A9%E5%BE%97-2026%E5%B9%B42%E6%9C%88%E5%90%88%E4%BD%B5%E7%87%9F%E6%94%B61-15%E5%84%84%E5%85%83-%E5%B9%B4%E5%A2%9E-060415225.html"
             }
         ],
         "vol_history": [
@@ -2098,6 +2098,6 @@
             "06/05",
             "06/08"
         ],
-        "updated": "2026-06-08 17:13:43"
+        "updated": "2026-06-08 20:49:58"
     }
 }
