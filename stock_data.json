@@ -2,11 +2,11 @@
     "1582.TW": {
         "name": "信錦",
         "symbol": "1582.TW",
-        "price": 71.3,
-        "change": 0.3,
-        "percent": 0.42,
-        "entry": 68.45,
-        "long_term": 106.9,
+        "price": 70.7,
+        "change": -0.6,
+        "percent": -0.84,
+        "entry": 67.87,
+        "long_term": 106.1,
         "chip_status": "外資拉抬",
         "chips_history": [
             {
@@ -227,7 +227,7 @@
             1669.2,
             1195.2,
             617.4,
-            613.8
+            602.1
         ],
         "price_history": [
             83.4,
@@ -249,7 +249,7 @@
             70.4,
             71.0,
             71.3,
-            71.3
+            70.7
         ],
         "history_dates": [
             "06/26",
@@ -273,16 +273,16 @@
             "07/22",
             "07/23"
         ],
-        "updated": "2026-07-23 00:07:47"
+        "updated": "2026-07-23 09:16:47"
     },
     "2402.TW": {
         "name": "毅嘉",
         "symbol": "2402.TW",
-        "price": 58.6,
-        "change": 0.6,
-        "percent": 1.03,
-        "entry": 56.26,
-        "long_term": 87.9,
+        "price": 58.9,
+        "change": 0.3,
+        "percent": 0.51,
+        "entry": 56.54,
+        "long_term": 88.3,
         "chip_status": "大戶調節",
         "chips_history": [
             {
@@ -503,7 +503,7 @@
             3914.4,
             2376.2,
             1124.6,
-            1097.9
+            1079.1
         ],
         "price_history": [
             64.1,
@@ -525,7 +525,7 @@
             56.4,
             58.0,
             58.6,
-            58.6
+            58.9
         ],
         "history_dates": [
             "06/26",
@@ -549,16 +549,16 @@
             "07/22",
             "07/23"
         ],
-        "updated": "2026-07-23 00:07:47"
+        "updated": "2026-07-23 09:16:47"
     },
     "3231.TW": {
         "name": "緯創",
         "symbol": "3231.TW",
-        "price": 164.0,
-        "change": 14.5,
-        "percent": 9.7,
-        "entry": 157.44,
-        "long_term": 246.0,
+        "price": 175.5,
+        "change": 11.5,
+        "percent": 7.01,
+        "entry": 168.48,
+        "long_term": 263.2,
         "chip_status": "外資拉抬",
         "chips_history": [
             {
@@ -705,10 +705,40 @@
         "analysis_points": [
             "💰 外資為主導買盤，近5日回補 53,871 張。",
             "💎 20日大趨勢：投信波段持續護盤，累計買超達 36,836 張。",
-            "🚀 技術面：當前股價 $164.0 位處月線之上，趨勢偏多。",
+            "🚀 技術面：當前股價 $175.5 位處月線之上，趨勢偏多。",
             "💡 策略建議：**多頭趨勢確立，回測支撐可分批佈局**。"
         ],
         "news_items": [
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創：美國視AI為國安需求　供應鏈赴美趨勢不可逆",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5-%E7%BE%8E%E5%9C%8B%E8%A6%96ai%E7%82%BA%E5%9C%8B%E5%AE%89%E9%9C%80%E6%B1%82-%E4%BE%9B%E6%87%89%E9%8F%88%E8%B5%B4%E7%BE%8E%E8%B6%A8%E5%8B%A2%E4%B8%8D%E5%8F%AF%E9%80%86-005446458.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創明年資本支出續增，台/美/越三地同步擴產",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E6%98%8E%E5%B9%B4%E8%B3%87%E6%9C%AC%E6%94%AF%E5%87%BA%E7%BA%8C%E5%A2%9E-%E5%8F%B0-%E7%BE%8E-%E8%B6%8A%E4%B8%89%E5%9C%B0%E5%90%8C%E6%AD%A5%E6%93%B4%E7%94%A2-222300202.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創擴大新事業，盼提升長期獲利能力",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E6%93%B4%E5%A4%A7%E6%96%B0%E4%BA%8B%E6%A5%AD-%E7%9B%BC%E6%8F%90%E5%8D%87%E9%95%B7%E6%9C%9F%E7%8D%B2%E5%88%A9%E8%83%BD%E5%8A%9B-220600337.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創：Token經濟續擴大，AI需求仍將維持強勁",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5-token%E7%B6%93%E6%BF%9F%E7%BA%8C%E6%93%B4%E5%A4%A7-ai%E9%9C%80%E6%B1%82%E4%BB%8D%E5%B0%87%E7%B6%AD%E6%8C%81%E5%BC%B7%E5%8B%81-220400942.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "從墨西哥走向美國，緯創董座揭三大考量",
+                "link": "https://tw.stock.yahoo.com/news/%E5%BE%9E%E5%A2%A8%E8%A5%BF%E5%93%A5%E8%B5%B0%E5%90%91%E7%BE%8E%E5%9C%8B-%E7%B7%AF%E5%89%B5%E8%91%A3%E5%BA%A7%E6%8F%AD%E4%B8%89%E5%A4%A7%E8%80%83%E9%87%8F-220200337.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創德州廠年底人力拚翻逾倍、達千人規模",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E5%BE%B7%E5%B7%9E%E5%BB%A0%E5%B9%B4%E5%BA%95%E4%BA%BA%E5%8A%9B%E6%8B%9A%E7%BF%BB%E9%80%BE%E5%80%8D-%E9%81%94%E5%8D%83%E4%BA%BA%E8%A6%8F%E6%A8%A1-220100623.html"
+            },
             {
                 "source": "Yahoo新聞",
                 "title": "台灣救了美國半導體！ 黃仁勳喊話：華府無須槍口對台",
@@ -728,36 +758,6 @@
                 "source": "Yahoo新聞",
                 "title": "華通完成現增案張募集達86.1億元 現增股7/27上市交易",
                 "link": "https://tw.stock.yahoo.com/news/%E8%8F%AF%E9%80%9A%E5%AE%8C%E6%88%90%E7%8F%BE%E5%A2%9E%E6%A1%88%E5%BC%B5%E5%8B%9F%E9%9B%86%E9%81%9486-1%E5%84%84%E5%85%83-%E7%8F%BE%E5%A2%9E%E8%82%A17-27%E4%B8%8A%E5%B8%82%E4%BA%A4%E6%98%93-071708393.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "【Follow法人】外資掃貨緯創2.4萬張！3檔主動式ETF也獲青睞 逆勢出脫華邦電力積電",
-                "link": "https://tw.stock.yahoo.com/news/%E3%80%90follow%E6%B3%95%E4%BA%BA%E3%80%91%E5%A4%96%E8%B3%87%E6%8E%83%E8%B2%A8%E7%B7%AF%E5%89%B524%E8%90%AC%E5%BC%B5%EF%BC%813%E6%AA%94%E4%B8%BB%E5%8B%95%E5%BC%8Fetf%E4%B9%9F%E7%8D%B2%E9%9D%92%E7%9D%9E-%E9%80%86%E5%8B%A2%E5%87%BA%E8%84%AB%E8%8F%AF%E9%82%A6%E9%9B%BB%E5%8A%9B%E7%A9%8D%E9%9B%BB-071209726.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "黃仁勳：與台灣做生意不再「俗擱大碗」而是具備高度成本效益",
-                "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3-%E8%88%87%E5%8F%B0%E7%81%A3%E5%81%9A%E7%94%9F%E6%84%8F%E4%B8%8D%E5%86%8D-%E4%BF%97%E6%93%B1%E5%A4%A7%E7%A2%97-%E8%80%8C%E6%98%AF%E5%85%B7%E5%82%99%E9%AB%98%E5%BA%A6%E6%88%90%E6%9C%AC%E6%95%88%E7%9B%8A-033504366.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "德州新廠開幕，黃仁勳驚喜現身力挺，緯創股價噴漲停，帶旺緯穎同亮燈",
-                "link": "https://tw.stock.yahoo.com/news/%E5%BE%B7%E5%B7%9E%E6%96%B0%E5%BB%A0%E9%96%8B%E5%B9%95-%E9%BB%83%E4%BB%81%E5%8B%B3%E9%A9%9A%E5%96%9C%E7%8F%BE%E8%BA%AB%E5%8A%9B%E6%8C%BA-%E7%B7%AF%E5%89%B5%E8%82%A1%E5%83%B9%E5%99%B4%E6%BC%B2%E5%81%9C-%E5%B8%B6%E6%97%BA%E7%B7%AF%E7%A9%8E%E5%90%8C%E4%BA%AE%E7%87%88-025809093.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "緯創沃斯堡新廠開幕 黃仁勳親站台：台灣應感到驕傲",
-                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E9%81%94%E6%8B%89%E6%96%AF%E6%96%B0%E5%BB%A0%E9%96%8B%E5%B9%95-%E9%BB%83%E4%BB%81%E5%8B%B3%E8%A6%AA%E7%AB%99%E5%8F%B0-%E5%8F%B0%E7%81%A3%E6%87%89%E6%84%9F%E5%88%B0%E9%A9%95%E5%82%B2-022806169.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "AI教父黃仁勳親自站台！緯創鎖漲停 近3萬買單排隊等買",
-                "link": "https://tw.stock.yahoo.com/news/ai%E6%95%99%E7%88%B6%E9%BB%83%E4%BB%81%E5%8B%B3%E8%A6%AA%E8%87%AA%E7%AB%99%E5%8F%B0%EF%BC%81%E7%B7%AF%E5%89%B5%E9%8E%96%E6%BC%B2%E5%81%9C-%E8%BF%913%E8%90%AC%E8%B2%B7%E5%96%AE%E6%8E%92%E9%9A%8A%E7%AD%89%E8%B2%B7-022234012.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "黃仁勳霸氣喊「身為台灣人該驕傲」！親曝：美國應非常感謝",
-                "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E9%9C%B8%E6%B0%A3%E5%96%8A-%E8%BA%AB%E7%82%BA%E5%8F%B0%E7%81%A3%E4%BA%BA%E8%A9%B2%E9%A9%95%E5%82%B2-%E8%A6%AA%E6%9B%9D-%E7%BE%8E%E5%9C%8B%E6%87%89%E9%9D%9E%E5%B8%B8%E6%84%9F%E8%AC%9D-015713268.html"
             }
         ],
         "vol_history": [
@@ -780,7 +780,7 @@
             38123.3,
             51199.1,
             35782.8,
-            94810.8
+            92938.8
         ],
         "price_history": [
             147.59,
@@ -802,7 +802,7 @@
             143.5,
             149.5,
             164.0,
-            164.0
+            175.5
         ],
         "history_dates": [
             "06/26",
@@ -826,16 +826,16 @@
             "07/22",
             "07/23"
         ],
-        "updated": "2026-07-23 00:07:47"
+        "updated": "2026-07-23 09:16:47"
     },
     "3305.TW": {
         "name": "昇貿",
         "symbol": "3305.TW",
-        "price": 112.0,
-        "change": 1.5,
-        "percent": 1.36,
-        "entry": 107.52,
-        "long_term": 168.0,
+        "price": 112.5,
+        "change": 0.5,
+        "percent": 0.45,
+        "entry": 108.0,
+        "long_term": 168.8,
         "chip_status": "大戶調節",
         "chips_history": [
             {
@@ -1056,7 +1056,7 @@
             2800.9,
             2553.0,
             1815.5,
-            1338.9
+            1311.9
         ],
         "price_history": [
             127.03,
@@ -1078,7 +1078,7 @@
             106.0,
             110.5,
             112.0,
-            112.0
+            112.5
         ],
         "history_dates": [
             "06/26",
@@ -1102,16 +1102,16 @@
             "07/22",
             "07/23"
         ],
-        "updated": "2026-07-23 00:07:47"
+        "updated": "2026-07-23 09:16:47"
     },
     "3585.TWO": {
         "name": "聯致",
         "symbol": "3585.TWO",
-        "price": 49.85,
-        "change": 3.78,
-        "percent": 8.2,
-        "entry": 47.86,
-        "long_term": 74.8,
+        "price": 48.75,
+        "change": -1.48,
+        "percent": -2.95,
+        "entry": 46.8,
+        "long_term": 73.1,
         "chip_status": "無籌碼數據",
         "chips_history": [],
         "analysis_points": [
@@ -1140,7 +1140,7 @@
             1773.2,
             2053.7,
             1630.4,
-            1061.6
+            1054.1
         ],
         "price_history": [
             73.6,
@@ -1161,8 +1161,8 @@
             51.0,
             46.15,
             48.3,
-            49.85,
-            49.85
+            50.0,
+            48.75
         ],
         "history_dates": [
             "06/26",
@@ -1186,16 +1186,16 @@
             "07/22",
             "07/23"
         ],
-        "updated": "2026-07-23 00:07:47"
+        "updated": "2026-07-23 09:16:47"
     },
     "3701.TW": {
         "name": "大眾控",
         "symbol": "3701.TW",
-        "price": 39.75,
-        "change": 0.25,
-        "percent": 0.63,
-        "entry": 38.16,
-        "long_term": 59.6,
+        "price": 40.1,
+        "change": 0.35,
+        "percent": 0.88,
+        "entry": 38.5,
+        "long_term": 60.2,
         "chip_status": "外資拉抬",
         "chips_history": [
             {
@@ -1416,7 +1416,7 @@
             1084.5,
             1513.0,
             554.4,
-            674.0
+            670.0
         ],
         "price_history": [
             43.5,
@@ -1438,7 +1438,7 @@
             37.95,
             39.5,
             39.75,
-            39.75
+            40.1
         ],
         "history_dates": [
             "06/26",
@@ -1462,16 +1462,16 @@
             "07/22",
             "07/23"
         ],
-        "updated": "2026-07-23 00:07:47"
+        "updated": "2026-07-23 09:16:47"
     },
     "4569.TW": {
         "name": "六方科-KY",
         "symbol": "4569.TW",
-        "price": 159.5,
-        "change": -0.5,
-        "percent": -0.31,
-        "entry": 153.12,
-        "long_term": 239.2,
+        "price": 162.5,
+        "change": 3.0,
+        "percent": 1.88,
+        "entry": 156.0,
+        "long_term": 243.8,
         "chip_status": "盤整待變",
         "chips_history": [
             {
@@ -1691,7 +1691,7 @@
             122.0,
             45.0,
             43.0,
-            46.7
+            46.0
         ],
         "price_history": [
             166.5,
@@ -1713,7 +1713,7 @@
             157.0,
             160.0,
             159.5,
-            159.5
+            162.5
         ],
         "history_dates": [
             "06/26",
@@ -1737,16 +1737,16 @@
             "07/22",
             "07/23"
         ],
-        "updated": "2026-07-23 00:07:47"
+        "updated": "2026-07-23 09:16:47"
     },
     "6407.TWO": {
         "name": "相互",
         "symbol": "6407.TWO",
-        "price": 23.6,
-        "change": 0.1,
-        "percent": 0.43,
-        "entry": 22.66,
-        "long_term": 35.4,
+        "price": 23.35,
+        "change": -0.34,
+        "percent": -1.44,
+        "entry": 22.42,
+        "long_term": 35.0,
         "chip_status": "無籌碼數據",
         "chips_history": [],
         "analysis_points": [
@@ -1775,7 +1775,7 @@
             620.7,
             744.8,
             358.3,
-            324.2
+            317.8
         ],
         "price_history": [
             27.16,
@@ -1796,8 +1796,8 @@
             24.2,
             23.3,
             23.95,
-            23.6,
-            23.6
+            23.3,
+            23.35
         ],
         "history_dates": [
             "06/26",
@@ -1821,16 +1821,16 @@
             "07/22",
             "07/23"
         ],
-        "updated": "2026-07-23 00:07:47"
+        "updated": "2026-07-23 09:16:47"
     },
     "6761.TWO": {
         "name": "穩得",
         "symbol": "6761.TWO",
-        "price": 155.5,
-        "change": -0.5,
-        "percent": -0.32,
-        "entry": 149.28,
-        "long_term": 233.2,
+        "price": 156.5,
+        "change": 1.0,
+        "percent": 0.64,
+        "entry": 150.24,
+        "long_term": 234.8,
         "chip_status": "大戶調節",
         "chips_history": [
             {
@@ -2051,7 +2051,7 @@
             381.0,
             298.6,
             207.0,
-            190.3
+            184.1
         ],
         "price_history": [
             182.0,
@@ -2073,7 +2073,7 @@
             153.0,
             156.0,
             155.5,
-            155.5
+            156.5
         ],
         "history_dates": [
             "06/26",
@@ -2097,6 +2097,6 @@
             "07/22",
             "07/23"
         ],
-        "updated": "2026-07-23 00:07:47"
+        "updated": "2026-07-23 09:16:47"
     }
 }
