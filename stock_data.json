@@ -272,7 +272,7 @@
             "10/08",
             "10/12"
         ],
-        "updated": "2026-10-12 17:44:54"
+        "updated": "2026-10-12 20:26:36"
     },
     "2402.TW": {
         "name": "毅嘉",
@@ -548,7 +548,7 @@
             "10/08",
             "10/12"
         ],
-        "updated": "2026-10-12 17:44:54"
+        "updated": "2026-10-12 20:26:36"
     },
     "3231.TW": {
         "name": "緯創",
@@ -709,6 +709,26 @@
         "news_items": [
             {
                 "source": "Yahoo新聞",
+                "title": "緯創再砸80億元擴產AI 擬購中強光電南科二廠",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E5%86%8D%E7%A0%B880%E5%84%84%E5%85%83%E6%93%B4%E7%94%A2ai-%E6%93%AC%E8%B3%BC%E4%B8%AD%E5%BC%B7%E5%85%89%E9%9B%BB%E5%8D%97%E7%A7%91%E4%BA%8C%E5%BB%A0-111055213.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創擬取得南部科學園區台南市新市區環西路不動產，上限10億元",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E6%93%AC%E5%8F%96%E5%BE%97%E5%8D%97%E9%83%A8%E7%A7%91%E5%AD%B8%E5%9C%92%E5%8D%80%E5%8F%B0%E5%8D%97%E5%B8%82%E6%96%B0%E5%B8%82%E5%8D%80%E7%92%B0%E8%A5%BF%E8%B7%AF%E4%B8%8D%E5%8B%95%E7%94%A2-%E4%B8%8A%E9%99%9010%E5%84%84%E5%85%83-110800220.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創調升資本支出　擬購入中強光電台南廠房",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E8%AA%BF%E5%8D%87%E8%B3%87%E6%9C%AC%E6%94%AF%E5%87%BA-%E6%93%AC%E8%B3%BC%E5%85%A5%E4%B8%AD%E5%BC%B7%E5%85%89%E9%9B%BB%E5%8F%B0%E5%8D%97%E5%BB%A0%E6%88%BF-104833450.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創斥資逾80億元 擴大AI投資",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E6%96%A5%E8%B3%87%E9%80%BE80%E5%84%84%E5%85%83-%E6%93%B4%E5%A4%A7ai%E6%8A%95%E8%B3%87-102137261.html"
+            },
+            {
+                "source": "Yahoo新聞",
                 "title": "【公告】緯創擬進行建築物改良及取得機器設備",
                 "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%B7%AF%E5%89%B5%E6%93%AC%E9%80%B2%E8%A1%8C%E5%BB%BA%E7%AF%89%E7%89%A9%E6%94%B9%E8%89%AF%E5%8F%8A%E5%8F%96%E5%BE%97%E6%A9%9F%E5%99%A8%E8%A8%AD%E5%82%99-091532703.html"
             },
@@ -724,38 +744,18 @@
             },
             {
                 "source": "Yahoo新聞",
+                "title": "緯創 公告本公司新增背書保證金額達處理準則第25條第1項第4款應公告相關事宜",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5-%E5%85%AC%E5%91%8A%E6%9C%AC%E5%85%AC%E5%8F%B8%E6%96%B0%E5%A2%9E%E8%83%8C%E6%9B%B8%E4%BF%9D%E8%AD%89%E9%87%91%E9%A1%8D%E9%81%94%E8%99%95%E7%90%86%E6%BA%96%E5%89%87%E7%AC%AC25%E6%A2%9D%E7%AC%AC1%E9%A0%85%E7%AC%AC4%E6%AC%BE%E6%87%89%E5%85%AC%E5%91%8A%E7%9B%B8%E9%97%9C%E4%BA%8B%E5%AE%9C-090400431.html"
+            },
+            {
+                "source": "Yahoo新聞",
+                "title": "緯創 公告本公司擬進行建築物改良及取得機器設備",
+                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5-%E5%85%AC%E5%91%8A%E6%9C%AC%E5%85%AC%E5%8F%B8%E6%93%AC%E9%80%B2%E8%A1%8C%E5%BB%BA%E7%AF%89%E7%89%A9%E6%94%B9%E8%89%AF%E5%8F%8A%E5%8F%96%E5%BE%97%E6%A9%9F%E5%99%A8%E8%A8%AD%E5%82%99-090400555.html"
+            },
+            {
+                "source": "Yahoo新聞",
                 "title": "中光電投控：中強光電董事會決議出售南科建物及附屬設施予緯創，預計獲利約5億元",
                 "link": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%85%89%E9%9B%BB%E6%8A%95%E6%8E%A7-%E4%B8%AD%E5%BC%B7%E5%85%89%E9%9B%BB%E8%91%A3%E4%BA%8B%E6%9C%83%E6%B1%BA%E8%AD%B0%E5%87%BA%E5%94%AE%E5%8D%97%E7%A7%91%E5%BB%BA%E7%89%A9%E5%8F%8A%E9%99%84%E5%B1%AC%E8%A8%AD%E6%96%BD%E4%BA%88%E7%B7%AF%E5%89%B5-%E9%A0%90%E8%A8%88%E7%8D%B2%E5%88%A9%E7%B4%845%E5%84%84%E5%85%83-083700689.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "中光電投控 代子公司中強光電股份有限公司公告董事會決議出售南科建物及附屬設施案",
-                "link": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%85%89%E9%9B%BB%E6%8A%95%E6%8E%A7-%E4%BB%A3%E5%AD%90%E5%85%AC%E5%8F%B8%E4%B8%AD%E5%BC%B7%E5%85%89%E9%9B%BB%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%85%AC%E5%91%8A%E8%91%A3%E4%BA%8B%E6%9C%83%E6%B1%BA%E8%AD%B0%E5%87%BA%E5%94%AE%E5%8D%97%E7%A7%91%E5%BB%BA%E7%89%A9%E5%8F%8A%E9%99%84%E5%B1%AC%E8%A8%AD%E6%96%BD%E6%A1%88-083400968.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "電子五哥第三季股價三漲兩跌 最新伺服器展望一次看",
-                "link": "https://tw.stock.yahoo.com/news/%E9%9B%BB%E5%AD%90%E4%BA%94%E5%93%A5%E7%AC%AC%E4%B8%89%E5%AD%A3%E8%82%A1%E5%83%B9%E4%B8%89%E6%BC%B2%E5%85%A9%E8%B7%8C-%E6%9C%80%E6%96%B0%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%B1%95%E6%9C%9B-%E6%AC%A1%E7%9C%8B-022412622.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "爆網路資安事件　緯致：已採取防護措施營運正常",
-                "link": "https://tw.stock.yahoo.com/news/%E7%88%86%E7%B6%B2%E8%B7%AF%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6-%E7%B7%AF%E8%87%B4-%E5%B7%B2%E6%8E%A1%E5%8F%96%E9%98%B2%E8%AD%B7%E6%8E%AA%E6%96%BD%E7%87%9F%E9%81%8B%E6%AD%A3%E5%B8%B8-035800975.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "【公告】緯致發生網路資安事件",
-                "link": "https://tw.stock.yahoo.com/news/%E5%85%AC%E5%91%8A-%E7%B7%AF%E8%87%B4%E7%99%BC%E7%94%9F%E7%B6%B2%E8%B7%AF%E8%B3%87%E5%AE%89%E4%BA%8B%E4%BB%B6-033452027.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "緯創英業達第3季營收創新高　和碩9月歷年最旺",
-                "link": "https://tw.stock.yahoo.com/news/%E7%B7%AF%E5%89%B5%E8%8B%B1%E6%A5%AD%E9%81%94%E7%AC%AC3%E5%AD%A3%E7%87%9F%E6%94%B6%E5%89%B5%E6%96%B0%E9%AB%98-%E5%92%8C%E7%A2%A99%E6%9C%88%E6%AD%B7%E5%B9%B4%E6%9C%80%E6%97%BA-131106542.html"
-            },
-            {
-                "source": "Yahoo新聞",
-                "title": "電子五哥9月營收「三增二減」！和碩「翻倍」首破2000億元最強",
-                "link": "https://tw.stock.yahoo.com/news/%E9%9B%BB%E5%AD%90%E4%BA%94%E5%93%A59%E6%9C%88%E7%87%9F%E6%94%B6%E3%80%8C%E4%B8%89%E5%A2%9E%E4%BA%8C%E6%B8%9B%E3%80%8D%EF%BC%81%E5%92%8C%E7%A2%A9%E3%80%8C%E7%BF%BB%E5%80%8D%E3%80%8D%E9%A6%96%E7%A0%B42000%E5%84%84%E5%85%83%E6%9C%80%E5%BC%B7-100134781.html"
             }
         ],
         "vol_history": [
@@ -824,7 +824,7 @@
             "10/08",
             "10/12"
         ],
-        "updated": "2026-10-12 17:44:54"
+        "updated": "2026-10-12 20:26:36"
     },
     "3305.TW": {
         "name": "昇貿",
@@ -1100,7 +1100,7 @@
             "10/08",
             "10/12"
         ],
-        "updated": "2026-10-12 17:44:54"
+        "updated": "2026-10-12 20:26:36"
     },
     "3585.TWO": {
         "name": "聯致",
@@ -1184,7 +1184,7 @@
             "10/08",
             "10/12"
         ],
-        "updated": "2026-10-12 17:44:54"
+        "updated": "2026-10-12 20:26:36"
     },
     "3701.TW": {
         "name": "大眾控",
@@ -1460,7 +1460,7 @@
             "10/08",
             "10/12"
         ],
-        "updated": "2026-10-12 17:44:54"
+        "updated": "2026-10-12 20:26:36"
     },
     "4569.TW": {
         "name": "六方科-KY",
@@ -1735,7 +1735,7 @@
             "10/08",
             "10/12"
         ],
-        "updated": "2026-10-12 17:44:54"
+        "updated": "2026-10-12 20:26:36"
     },
     "6407.TWO": {
         "name": "相互",
@@ -1819,7 +1819,7 @@
             "10/08",
             "10/12"
         ],
-        "updated": "2026-10-12 17:44:54"
+        "updated": "2026-10-12 20:26:36"
     },
     "6761.TWO": {
         "name": "穩得",
@@ -2095,6 +2095,6 @@
             "10/08",
             "10/12"
         ],
-        "updated": "2026-10-12 17:44:54"
+        "updated": "2026-10-12 20:26:36"
     }
 }
